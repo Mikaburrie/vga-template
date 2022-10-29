@@ -12,4 +12,5 @@ vga_output_data should be directly sent to the pins defined in the assignments a
 If you're interested in learning about how vga works, some resources are provided below.
 
 [The world's worst video card?](https://www.youtube.com/watch?v=l7rce6IQDWs)
+
 [VGA signal timings](http://tinyvga.com/vga-timing)

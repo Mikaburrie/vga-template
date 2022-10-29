@@ -8,3 +8,8 @@ The vga module takes in a 50MHz clock signal, clk, and uses this to maintain it'
 The vga module outputs an x and y, which signify the x and y position of the pixel about to be drawn. On the next vga clock pulse, the values provided to r, g, and b will be shown at the x y location. Since the vga clock is half the speed of the base clock, you have one clock pulse to set r, g, and b to the desired values.
 
 vga_output_data should be directly sent to the pins defined in the assignments and should not require any modification.
+
+If you're interested in learning about how vga works, some resources are provided below.
+
+[The world's worst video card?](https://www.youtube.com/watch?v=l7rce6IQDWs)
+[VGA signal timings](http://tinyvga.com/vga-timing)

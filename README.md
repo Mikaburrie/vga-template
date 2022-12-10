@@ -7,7 +7,7 @@ The vga module takes in a 50MHz clock signal, clk, and uses this to maintain it'
 
 The vga module outputs an x and y, which signify the x and y position of the pixel about to be drawn. On the next vga clock pulse, the values provided to r, g, and b will be shown at the x y location. Since the vga clock is half the speed of the base clock, you have one clock pulse to set r, g, and b to the desired values.
 
-If you need more than one clock pulse to set r, g, and b, you can add delay registers for x and y in the vga module. Each delay register should grant you two extra clock pulses to set the colors.
+If you need more than one clock pulse to set r, g, and b, you can add delay registers for x and y in the vga module. Each delay register should grant you two extra clock pulses to set the colors (Not confirmed, attempt at your own risk).
 
 vga_output_data should be directly sent to the pins defined in the assignments and should not require any modification.
 
